@@ -4,7 +4,7 @@
     "description": "",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "postinstall": "python3 -m venv mjpg-env --system-site-packages && . mjpg-env/bin/activate && pip3 install -r tm-mjpg-server/requirements.txt"
+        "postinstall": "python3 -m venv mjpg-env --system-site-packages --without-pip && . mjpg-env/bin/activate && pip3 install -r tm-mjpg-server/requirements.txt"
     },
     "author": "T-Mobile",
     "license": "Apache-2.0",
